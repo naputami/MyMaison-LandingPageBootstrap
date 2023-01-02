@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/fontawesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>My Maison</title>
+</head>
+<body>
+    <!-- START THE HEADER SECTION -->
+    <header class="header bg-white fixed-top">
+        <!-- start header top -->
+        <div class="header-top mt-2">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div id="logo" class="logo">
+                        <a href="index.html"><img src="images/logo.png" alt="logo image"></a>
+                    </div>
+                    <div class="ml-auto d-none d-md-block d-md-flex">
+                        <div class="media header-top-info">
+                            <span class="header-top-info__icon"><i class="fas fa-phone-volume"></i></span>
+                            <div class="media-body">
+                                <p>Have any questions?</p>
+                                <p>Free: <a>089999999</a></p>
+                            </div>
+                        </div>
+                        <div class="media header-top-info">
+                            <span class="header-top-info__icon"><i class="fas fa-envelope"></i></span>
+                            <div class="media-body">
+                                <p>Have any questions?</p>
+                                <p>Free: <a>cs@mymasion.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- start navbar menu -->
+            <nav class="navbar navbar-expand-lg navbar-light menu shadow">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-center display-1--menu" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Properties</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                      </li>
+                      <li class="nav-item dropdown test">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Blog
+                        </a>
+                        <ul class="dropdown-menu dropdown-style" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Blog</a></li>
+                          <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+    </header>
+    <main>
+      <!-- start banner section -->
+      <section id="banner" class="banner">
+        <div class="banner-img" style="background-image: url('images/hotel/leisure-beautiful-health-garden-landscape\ \(2\).jpg');">
+          <div class="color-overlay d-flex justify-content-center align-items-center">
+            <div class="banner-word text-center">
+              <p class="display-1--text-banner">SEE WHAT A DIFFERENCE A STAY MAKES</p>
+              <h1 class="display-1--title-banner">Luxury <em>is</em> Personal</h1>
+              <button type="button" class="btn btn-outline-primary btn-lg mt-4 btn-banner">Book Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- start check availability section -->
+      <section id="check-availability" class="check-availability mt-4">
+        <div class="container d-flex justify-content-center align-items-center form-style">
+          <div class="form bg-white p-4 shadow">
+            <form>
+              <div class="row g-3 mb-2">
+                <div class="col-md-6 col-12 mb-2">
+                  <input type="text" placeholder="input your keywords here" id="kw" class="form-control p-2">
+                </div>
+                <div class="col-md-3 col-12 mb-2">
+                  <input type="text" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="Check in" id="checkin" class="form-control p-2">
+                </div>
+                <div class="col-md-3 col-12 mb-2">
+                  <input type="text" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="Check out" id="checkout" class="form-control p-2">
+                </div>
+              </div>
+              <div class="row g-3">
+                <div class="col-md-2 col-12 mb-2">
+                  <select class="form-select p-2">
+                    <option selected disabled>Child</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4+</option>
+                  </select>
+                </div>
+                <div class="col-md-2 col-12 mb-2">
+                  <select class="form-select p-2">
+                    <option selected disabled>Adult</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4+</option>
+                  </select>
+                </div>
+                <div class="col-md-2 col-12 mb-2">
+                  <select class="form-select p-2">
+                    <option selected disabled>Room</option>
+                    <option>Regular</option>
+                    <option>Family</option>
+                    <option>VIP</option>
+                  </select>
+                </div>
+                <div class="col-md-6 col-12 mb-2">
+                  <button type="submit" class="btn btn-primary w-100 h.jpg btn-avail">Check Availability</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- start explore room section -->
+      <section id="explore-room" class="explore-room">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="row no-gutters welcome-image">
+                  <div class="col-sm-7 p-md-0">
+                    <div class="card">
+                      <img src="images/hotel/welcomeBanner1.jpg">
+                    </div>
+                  </div>
+                  <div class="col-sm-5 p-md-0">
+                    <div class="card">
+                      <img src="images/hotel/welcomeBanner2.jpg">
+                    </div>
+                  </div>
+                  <div class="col-lg-12 p-md-0">
+                    <div class="card">
+                      <img src="images/hotel/welcomeBanner3.jpg">
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="welcome-content ms-lg-5 mt-sm-3">
+                <h2 class="display-2 mb-md-3">Welcome to Our Resident</h2>
+                <p class="text-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo neque ad, adipisci exercitationem soluta ducimus dolorum ipsum quo praesentium totam!</p>
+                <p class="text-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio facere rem reiciendis veritatis suscipit tenetur beatae officia repellendus quasi labore, dicta animi, distinctio perferendis at nam voluptate harum quos dolore.</p>
+                <a class="btn btn-primary btn-explore mt-sm-3">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+  
+    
+    <script src="assets/js/bootstrap.bundle.js"></script>
+</body>
+</html>

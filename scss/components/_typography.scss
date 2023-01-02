@@ -1,0 +1,55 @@
+@use "../custom" as *;
+
+.display-1 {
+
+    &--menu {
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: "Playfair Display";
+        text-transform: uppercase;
+    }
+
+    &--title-banner {
+        font-size: 2.2rem;
+        font-family: "Playfair Display";
+        text-transform: uppercase;
+
+        @include media-breakpoint-up(lg){
+            font-size: 4rem;
+        }
+    }
+
+    &--text-banner {
+        font-size: 1rem;
+        font-family: "Playfair Display";
+        text-transform: uppercase;
+
+        @include media-breakpoint-up(lg){
+            font-size: 1.8rem;
+        }
+
+    }
+   
+}
+
+.display-2 {
+
+    font-size: 1.8rem;
+    font-family: "Playfair Display";
+    text-transform: capitalize;
+    font-weight: 600;
+
+    @include media-breakpoint-up(lg){
+        font-size: 2.5rem;
+    }
+}
+
+.text-info {
+
+    font-size: 0.8rem;
+    color: $gray-700 !important;
+
+    @include media-breakpoint-up(lg){
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,30 @@
+//THEME COLOR
+$ash-gray: #cad2c5ff;
+$dark-sea-green: #84a98cff;
+$hookers-green: #52796fff;
+$dark-slate-gray: #354f52ff;
+$charcoal: #2f3e46ff;
+
+
+//WHITE AND GRAY COLOR
+$white:    #fff; 
+$gray-100: #f8f9fa; 
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+$primary:      $hookers-green;
+$secondary:    $dark-sea-green;
+$tertiary:     $ash-gray; 
+
+//OVERRIDE NAVBAR STYLE
+$navbar-light-active-color:         $primary;
+
+//IMPORT BOOTSRAP
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

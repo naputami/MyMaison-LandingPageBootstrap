@@ -1,0 +1,11 @@
+@use "../custom" as *;
+.form-style {
+
+    position: static;
+
+    @include media-breakpoint-up(lg){
+        position: relative;
+        top: -14vh;
+    }
+    
+}

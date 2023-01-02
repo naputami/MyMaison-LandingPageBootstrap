@@ -1,0 +1,20 @@
+@use "../custom" as *;
+
+.explore-room {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.welcome-image {
+
+    img {
+           
+            max-height: 13rem;
+            object-fit: cover;
+
+            @include media-breakpoint-up(md){
+                height: 15rem;
+            }
+        
+        }
+}

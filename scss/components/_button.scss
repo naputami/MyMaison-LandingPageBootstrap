@@ -1,0 +1,30 @@
+@use "../custom" as *;
+@use "../components/mixin" as *;
+
+.btn-banner {
+    padding: 0.8375rem 2.25rem 0.8375rem 2.25rem;
+    color: $white;
+    @include button-style;
+}
+
+.btn-explore {
+
+    padding: 0.8375rem 1.25rem 0.8375rem 1.25rem;
+    @include button-style;
+
+
+    &:hover {
+        background-color: $white;
+        color: $black;
+    }
+}
+
+.btn-avail {
+
+    @include button-style;
+
+    &:hover {
+        background-color: $white;
+        color: $black;
+    }
+}
