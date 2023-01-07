@@ -1,20 +1,86 @@
 @use "../custom" as *;
 
+
 .explore-room {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 5rem;
+
+
+    .subtitle {
+        margin-bottom: 5rem;
+    }
+    
+    .icon-style {
+        width: 4rem;
+    
+        @include media-breakpoint-up(lg){
+            width: 7rem;
+        }
+    }
+
+    .card-style {
+
+        .card-body {
+
+            i {
+                transition: transform 1s;
+            }
+
+            &:hover {
+
+                a {
+                    color: $primary;
+                }
+
+                
+                i {
+                
+                    transform: translateX(1rem);
+                    
+                }
+            }
+
+        }
+
+        .img-style {
+
+            position: relative;
+
+            &::after{
+                content: "";
+                display: block;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                clip-path: polygon(0 83%, 0% 100%, 100% 100%);
+                background: #fff;
+                width: 100%;
+                height: 190px;
+            }
+
+            img {
+                // height: 20rem;
+                // object-fit: cover;
+                
+    
+                @include media-breakpoint-up(lg){
+                    width: 100%;
+                }
+            }
+
+        }
+        
+
+        a {
+            text-decoration: none;
+            color: $black;
+        }
+    }
 }
 
-.welcome-image {
+.card-container {
+    width: 100%;
 
-    img {
-           
-            max-height: 13rem;
-            object-fit: cover;
-
-            @include media-breakpoint-up(md){
-                height: 15rem;
-            }
-        
-        }
+    @include media-breakpoint-up(lg){
+        width: 70%;
+    }
 }

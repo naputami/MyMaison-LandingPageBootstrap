@@ -10832,7 +10832,7 @@ textarea.form-control-lg {
   font-size: 1.8rem;
   font-family: "Playfair Display";
   text-transform: capitalize;
-  font-weight: 600;
+  font-weight: 700;
 }
 @media (min-width: 992px) {
   .display-2 {
@@ -10846,8 +10846,36 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .text-info {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
+}
+
+.display-3 {
+  font-size: 1.8rem;
+  font-family: "Playfair Display";
+  text-transform: capitalize;
+  font-weight: 600;
+}
+@media (min-width: 992px) {
+  .display-3 {
+    font-size: 2rem;
+  }
+}
+.display-3--subtitle {
+  font-size: 1.1rem;
+  font-family: "Playfair Display";
+  text-transform: capitalize;
+  font-weight: 600;
+}
+@media (min-width: 992px) {
+  .display-3--subtitle {
+    font-size: 1.3rem;
+  }
+}
+.display-3--link {
+  font-family: "Playfair Display";
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .form-style {
@@ -10861,8 +10889,63 @@ textarea.form-control-lg {
 }
 
 .explore-room {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 5rem;
+}
+.explore-room .subtitle {
+  margin-bottom: 5rem;
+}
+.explore-room .icon-style {
+  width: 4rem;
+}
+@media (min-width: 992px) {
+  .explore-room .icon-style {
+    width: 7rem;
+  }
+}
+.explore-room .card-style .card-body i {
+  transition: transform 1s;
+}
+.explore-room .card-style .card-body:hover a {
+  color: #52796f;
+}
+.explore-room .card-style .card-body:hover i {
+  transform: translateX(1rem);
+}
+.explore-room .card-style .img-style {
+  position: relative;
+}
+.explore-room .card-style .img-style::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  clip-path: polygon(0 83%, 0% 100%, 100% 100%);
+  background: #fff;
+  width: 100%;
+  height: 190px;
+}
+@media (min-width: 992px) {
+  .explore-room .card-style .img-style img {
+    width: 100%;
+  }
+}
+.explore-room .card-style a {
+  text-decoration: none;
+  color: #000;
+}
+
+.card-container {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .card-container {
+    width: 70%;
+  }
+}
+
+.intro {
+  margin-top: 2.5rem;
 }
 
 .welcome-image img {
@@ -10955,6 +11038,36 @@ textarea.form-control-lg {
 .dropdown-style li a:hover {
   background-color: #fff;
   color: #52796f;
+}
+
+.video {
+  margin-top: 5rem;
+}
+.video .video-content-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  min-height: 30vh;
+  position: relative;
+}
+@media (min-width: 992px) {
+  .video .video-content-container {
+    min-height: 50vh;
+  }
+}
+.video .video-content-container .video-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.video .video-content-container .video-content-text img {
+  width: 4rem;
+}
+@media (min-width: 768px) {
+  .video .video-content-container .video-content-text img {
+    width: 6rem;
+  }
 }
 
 .banner {

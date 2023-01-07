@@ -1,0 +1,19 @@
+@use "../custom" as *;
+
+.intro {
+    margin-top: 2.5rem;
+}
+
+.welcome-image {
+
+    img {
+           
+            max-height: 13rem;
+            object-fit: cover;
+
+            @include media-breakpoint-up(md){
+                height: 15rem;
+            }
+        
+        }
+}
