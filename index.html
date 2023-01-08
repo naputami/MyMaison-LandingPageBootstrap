@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/fontawesome.css" rel="stylesheet">
+    <link href="assets/vendors/css/glightbox.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>My Maison</title>
 </head>
@@ -234,12 +235,18 @@
       <!-- start video section -->
       <section id="video" class="video">
             <div class="col-12">
-              <div class="video-content-container" style="background-image: url('images/hotel/video-backgroud3.jpg');">
+              <div class="video-content-container" style="background-image: url('images/hotel/video-background.jpg');">
                 <div class="d-flex justify-content-center align-items-center video-content">
-                  <div class="video-content-text text-center">
-                    <img src="images/play-icon.svg" class="play-icon-style">
-                    <h2 class="display-3">Beautiful scenery</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, sit!</p>
+                  <div class="video-content-text text-center justify-content-center align-items-center">
+                    <div class="play-button-container mb-3">
+                      <a class="play-button glightbox" href="">
+                        <span>
+                          <img src="images/play-icon.svg" class="play-icon-style">
+                        </span> 
+                      </a>
+                    </div>
+                    <h2 class="display-4">Beautiful scenery</h2>
+                    <p class="display-4--subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, sit!</p>
                   </div>
                 </div>
               </div>
@@ -262,6 +269,16 @@
 
         });
 
+      });
+    </script>
+    <script src="assets/vendors/js/glightbox.min.js"></script>
+    <script type="text/javascript">
+       const lightbox = GLightbox({
+            'href': 'https://www.youtube.com/watch?v=iJKCj8uAHz8&t=4215s',
+            'type': 'video',
+            'source': 'youtube', //vimeo, youtube or local
+            'width': 900,
+            'autoPlayVideos' : 'true'
       });
     </script>
 </body>
