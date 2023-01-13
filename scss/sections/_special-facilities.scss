@@ -1,0 +1,38 @@
+@use "../custom" as *;
+
+.special-facilities {
+    margin-top: 5rem;
+
+    .img-facility {
+        width: 20rem;
+
+        @include media-breakpoint-up(md){
+            width: 38rem;
+        }
+    }
+
+    .card-facility {
+
+        transition: all 0.3s ease ;
+
+        &:hover{
+
+            background-color: $primary;
+            color: $white;
+
+            i {
+                color: $white;
+            }
+        }
+    }
+
+    .facility-title {
+
+        span {
+
+            i {
+                color: $primary;
+            }
+        }
+    }
+}

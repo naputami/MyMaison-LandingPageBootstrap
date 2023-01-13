@@ -104,3 +104,14 @@
         }
     }
 }
+
+.display-5 {
+    font-family: "Playfair Display";
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 500;
+
+    @include media-breakpoint-up(md){
+        font-size: 1.3rem;
+    }
+}

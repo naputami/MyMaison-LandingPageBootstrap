@@ -5,6 +5,7 @@
 @use "components/button";
 @use "components/mixin";
 @use "components/typography";
+@use "components/icon";
 
 //import section
 @use "sections/bookingform";
@@ -16,3 +17,4 @@
 @use "sections/testimonials";
 @use "sections/video";
 @use "sections/welcoming-gallery";
+@use "sections/special-facilities";

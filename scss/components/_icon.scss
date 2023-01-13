@@ -1,0 +1,9 @@
+@use "../custom" as *;
+
+.icon-style {
+    width: 4rem;
+
+    @include media-breakpoint-up(lg){
+        width: 7rem;
+    }
+}

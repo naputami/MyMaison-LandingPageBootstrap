@@ -10910,6 +10910,27 @@ textarea.form-control-lg {
   }
 }
 
+.display-5 {
+  font-family: "Playfair Display";
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+@media (min-width: 768px) {
+  .display-5 {
+    font-size: 1.3rem;
+  }
+}
+
+.icon-style {
+  width: 4rem;
+}
+@media (min-width: 992px) {
+  .icon-style {
+    width: 7rem;
+  }
+}
+
 .form-style {
   position: static;
 }
@@ -10925,14 +10946,6 @@ textarea.form-control-lg {
 }
 .explore-room .subtitle {
   margin-bottom: 5rem;
-}
-.explore-room .icon-style {
-  width: 4rem;
-}
-@media (min-width: 992px) {
-  .explore-room .icon-style {
-    width: 7rem;
-  }
 }
 .explore-room .card-style .card-body i {
   transition: transform 1s;
@@ -11092,6 +11105,7 @@ textarea.form-control-lg {
   width: 100%;
   height: 100%;
   position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .video .video-content-container .video-content-text {
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
@@ -11152,6 +11166,31 @@ textarea.form-control-lg {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.special-facilities {
+  margin-top: 5rem;
+}
+.special-facilities .img-facility {
+  width: 20rem;
+}
+@media (min-width: 768px) {
+  .special-facilities .img-facility {
+    width: 38rem;
+  }
+}
+.special-facilities .card-facility {
+  transition: all 0.3s ease;
+}
+.special-facilities .card-facility:hover {
+  background-color: #52796f;
+  color: #fff;
+}
+.special-facilities .card-facility:hover i {
+  color: #fff;
+}
+.special-facilities .facility-title span i {
+  color: #52796f;
 }
 
 /*# sourceMappingURL=style.css.map */
