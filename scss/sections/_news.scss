@@ -1,0 +1,57 @@
+@use "../custom" as *;
+
+.news-and-event {
+    margin-top: 5rem;
+
+    .news-card {
+
+        &:hover {
+            .news-text {
+
+                a {
+                    color: $primary;
+                }
+
+                .news-link {
+
+                    i {
+                        transform: translateX(1rem);
+                    }
+                   
+                }
+            }
+
+            
+        }
+
+        .news-text {
+
+            a {
+                text-decoration: none;
+                color: $black;
+            }
+
+            .news-link {
+
+                i {
+                    transition: transform 1s;
+                }
+            }
+
+            .news-data {
+                
+                i {
+                    color: $primary;
+                    margin-right: 0.3rem;
+                    font-size: 0.9rem;
+                }
+
+                p {
+                    color: $gray-600;
+                    font-size: 0.9rem;
+                }
+            }
+        }
+
+    }
+}

@@ -26,5 +26,9 @@ $tertiary:     $ash-gray;
 //OVERRIDE NAVBAR STYLE
 $navbar-light-active-color:         $primary;
 
+//OVERRIDE OWLCAROUSEL
+$dot-background:		$gray-400;
+$dot-background-active:	$primary;
+
 //IMPORT BOOTSRAP
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

@@ -11085,6 +11085,64 @@ textarea.form-control-lg {
   color: #52796f;
 }
 
+.news-and-event {
+  margin-top: 5rem;
+}
+.news-and-event .news-card:hover .news-text a {
+  color: #52796f;
+}
+.news-and-event .news-card:hover .news-text .news-link i {
+  transform: translateX(1rem);
+}
+.news-and-event .news-card .news-text a {
+  text-decoration: none;
+  color: #000;
+}
+.news-and-event .news-card .news-text .news-link i {
+  transition: transform 1s;
+}
+.news-and-event .news-card .news-text .news-data i {
+  color: #52796f;
+  margin-right: 0.3rem;
+  font-size: 0.9rem;
+}
+.news-and-event .news-card .news-text .news-data p {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.testimonials {
+  margin-top: 5rem;
+}
+.testimonials .carousel-container {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .testimonials .carousel-container {
+    width: 80%;
+  }
+}
+.testimonials .carousel-container .item {
+  background-color: #f8f9fa;
+  height: 13rem;
+}
+@media (min-width: 992px) {
+  .testimonials .carousel-container .item {
+    height: 15rem;
+  }
+}
+.testimonials .carousel-container .item .testimonial-media {
+  padding: 1.2rem;
+  display: flex;
+  align-items: flex-start;
+}
+.testimonials .carousel-container .item .testimonial-media img {
+  width: 30%;
+  object-fit: contain;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+
 .video {
   margin-top: 5rem;
   z-index: 1;
