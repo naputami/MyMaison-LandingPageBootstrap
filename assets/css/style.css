@@ -10989,6 +10989,62 @@ textarea.form-control-lg {
   }
 }
 
+.footer {
+  background-color: #2f3e46;
+  margin-top: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .footer {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+  }
+}
+.footer .footer-info h4 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.footer .footer-info .footer-info-item {
+  list-style: none;
+  padding-left: 0;
+  color: #6c757d !important;
+}
+.footer .footer-info .footer-info-item a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer .footer-info .footer-info-item a:hover {
+  color: #52796f;
+  text-decoration: underline;
+}
+.footer .newsletter p {
+  color: #6c757d !important;
+}
+.footer .copyright-socmed {
+  color: #fff;
+}
+.footer .copyright-socmed .copyright a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer .copyright-socmed .copyright a:hover {
+  color: #52796f;
+  text-decoration: underline;
+}
+.footer .copyright-socmed .socmed-icon {
+  background-color: #84a98c;
+  margin-right: 0.3rem;
+  padding: 0.3rem 0.7rem;
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+}
+.footer .copyright-socmed .socmed-icon:hover {
+  background-color: #52796f;
+  cursor: pointer;
+}
+
 .intro {
   margin-top: 2.5rem;
 }
